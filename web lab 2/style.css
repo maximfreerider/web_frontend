@@ -1,0 +1,125 @@
+body{
+    background-color: darkcyan;
+
+}
+
+header{
+    font-size:  25px;
+    margin: -9px;
+    padding: 0px;
+    position: fixed;
+}
+
+ul{
+    display:block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul:after{
+    display:block;
+    content: '';
+    clear: both;
+    float: none;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+
+ul.menu > li > a{
+    display: block;
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+ul.menu > li > a:hover{
+    background-color: blue;
+}
+
+ul.submenu{
+    display:none;
+    position: absolute;
+    width:160px;
+    top:35px;
+    left:0;
+    background-color: aqua;
+    border: 1px solid black;
+
+}
+
+ul.submenu > li{
+    display: block;
+}
+
+ul.submenu > li > a{
+    display: block;
+    padding: 10px;
+    color:white;
+    background-color: darkcyan;
+    text-decoration: none;
+}
+
+ul.submenu > li > a:hover{
+    text-decoration: underline;
+    background-color: grey;
+
+}
+
+ul.menu > li:hover > ul.submenu{
+    display: block;
+    background-color: grey;
+    animation-name: anim_menu ;
+    animation-duration: 1s;
+}
+
+.nav{
+    position: fixed;
+    border: 3px solid greenyellow;
+    padding: 12px;
+    background-color: ghostwhite;
+}
+
+#content{
+    position: absolute;
+    padding-top: 300px;
+    text-align:left;
+    margin-left: 20%;
+    width: 58%;
+    color: white;
+}
+
+.bmwBg1 {
+    height: 250px;
+    width: 250px;
+    padding-top: 40px;
+    position: static;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: deepskyblue;
+    color: white;
+    text-align: center;
+}
+
+#logo {
+    float: right;
+}
+
+@keyframes anim_menu {
+     0%{
+         transform: rotate(0deg);
+     }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
