@@ -38,6 +38,46 @@ ul.menu > li > a{
 
 ul.menu > li > a:hover{
     background-color: blue;
+    animation-name: swing;
+    animation-duration: 2s;
+}
+
+/*ul.menu > li:{*/
+    /**/
+/*}*/
+
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 }
 
 ul.submenu{
@@ -98,6 +138,13 @@ ul.menu > li:hover > ul.submenu{
     padding-top: 40px;
     position: static;
     text-align: center;
+    animation-name: bmw_background_animation;
+    animation-duration: 2s;
+}
+
+@keyframes bmw_background_animation {
+    from{margin-left: -75%}
+    to {margin-left: 0%}
 }
 
 .footer {
@@ -112,6 +159,15 @@ ul.menu > li:hover > ul.submenu{
 
 #logo {
     float: right;
+    animation-name: logo_type;
+    animation-duration: 2s;
+}
+
+
+
+@keyframes logo_type {
+    from{margin-right: 60%}
+    to {margin-left: 100%}
 }
 
 @keyframes anim_menu {
