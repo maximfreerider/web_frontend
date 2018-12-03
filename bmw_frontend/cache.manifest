@@ -1,0 +1,23 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+championships.html
+
+error.html
+admin.html
+
+css/style.css
+img/logotype.png
+img/maps.png
+img/img1.jpg
+
+
+
+FALLBACK:
+/ /error.html
+
+
+NETWORK:
+#*
+

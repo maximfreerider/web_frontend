@@ -1,0 +1,36 @@
+.img-fluid {
+    animation-name: bmw_background_animation;
+    animation-duration: 2s;
+}
+
+@keyframes bmw_background_animation {
+    from{margin-left: -75%}
+    to {margin-left: 0% }
+}
+
+.content{
+    text-align: left;
+}
+
+#logo {
+    width: 45px;
+    height: 45px;
+    animation-name: logo_type;
+    animation-duration: 2s;
+}
+
+@keyframes logo_type {
+    from{margin-right: 100%}
+    to {margin-left: 50%}
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: deepskyblue;
+    color: white;
+    text-align: center;
+}

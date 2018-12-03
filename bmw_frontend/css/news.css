@@ -1,0 +1,20 @@
+.news-main .item {
+    padding: 30px 30px 50px;
+    margin: 0 auto 20px;
+    background: #eee;
+    border: 2px solid black;
+
+}
+
+
+
+/*для discription*/
+.news-main .item .txt h4 {
+    margin: 0;
+    color: deepskyblue;
+}
+.img-news{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}

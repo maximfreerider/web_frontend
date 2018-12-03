@@ -1,0 +1,11 @@
+.img-right {
+    margin: 0 0 10px 20px;
+    padding: 0;
+    float: right;
+}
+#logo {
+    width: 45px;
+    height: 45px;
+    animation-name: logo_type;
+    animation-duration: 2s;
+}
