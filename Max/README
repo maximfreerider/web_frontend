@@ -1,0 +1,8 @@
+1. встановлю. node.js і mongodb(вставнолю. path)
+2. в cmd, go to project directory.
+3. npm (npm init),
+ express (npm install express --save),
+ mongoose (npm install mongoose --save),
+4. У папці з проектом виконуєш md "/data/db/"
+5. У папці з проектом запускаєш  "mongod" і "npm run start".
+6. перевіряю http://127.0.0.1:8000/ , localhost port: 8000/feedbacks

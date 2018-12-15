@@ -1,0 +1,29 @@
+CACHE MANIFEST
+
+CACHE:
+css/style.css
+css/bootstrap.min.css
+index.html
+fans.html
+news.html
+img/1.jpg
+img/2.jpg
+img/flag1.jpg
+img/flag2.jpg
+img/flag3.jpg
+img/logo.png
+img/tenis.jpg
+js/script.js
+js/bootstrap.min.js
+js/jquery.min.js
+
+
+
+NETWORK:
+*
+
+FALLBACK:
+admin.html /error.html
+contacs.html /error.html
+matches.html /error.html
+news.html /error.html

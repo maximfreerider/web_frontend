@@ -1,0 +1,27 @@
+{
+  "name": "lab2-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/max/web/tree/master"
+  },
+  "author": "max",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "http-browserify": "^1.7.0",
+    "https-browserify": "^1.0.0",
+    "mongoose": "^5.3.9",
+    "request": "^2.88.0"
+  }
+}
